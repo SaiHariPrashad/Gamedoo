@@ -1,0 +1,239 @@
+
+.cm {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.mtext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.mimg {
+    align-items: center;
+    width: 22px;
+    height: 10px;
+    position: absolute;
+    left: 130px;
+    top: 8px;
+}
+
+.game-preview {
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.game-preview:hover {
+    background-color: rgb(247, 228, 228);
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    height: 90px;
+    position: relative;
+}
+
+.conef {
+    position: absolute;
+    top: 5px;
+    right: 50px;
+
+}
+.carrow {
+    position: absolute;
+    top: 5px;
+    right: 78px;
+}
+
+.ctwo{
+    position: absolute;
+    top: 5px;
+    right: 95px;
+}
+
+.cheart {
+    position: absolute;
+    top: 5px;
+    right: 120px;
+}
+
+.centext {
+    position: absolute;
+    top: 30px;
+}
+
+.win {
+    position: absolute;
+    top: 76px;
+}
+
+.apple{
+    position: absolute;
+    top: 74px;
+    left: 20px;
+}
+
+.play {
+    position: absolute;
+    top: 76px;
+    left: 40px;
+}
+
+.butd{
+    position: absolute;
+    width: 76px;
+    height: 26px;
+    background: #4B0ACE;
+    border-radius: 8px;
+    top: 70px;
+    right: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: #FFFFFF;
+    border-style: none;
+    cursor: pointer;
+}
+.thumbnail-row {
+    margin-bottom: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 90%;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+
+.content {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.content-main{
+    margin-right: none;
+    display: flex;
+}
+
+.c1 {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-right: none;
+}
+
+.text1 {
+    position: absolute;
+    left: 40px;
+    top: 60px;
+}
+
+.text2 {
+    position: absolute;
+    left: 40px;
+    top: 130px;
+}
+
+.buttonc {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: #FFA910;
+    color: black;
+    width: 182px;
+    height: 52px;
+    border-radius: 15px;
+    padding-left: 30px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.diam {
+    position: absolute;
+    bottom: 55px;
+    left: 65px;
+}
+
+.cimg {
+    object-fit: cover;
+    width: 950px;
+}
+
+.rightbg {
+    margin-top: 50px;
+}
+
+.rightimg {
+    position: absolute;
+    right: 45px;
+    top: 170px;
+}
+
+.nocturnal {
+    position: absolute;
+    top: 400px;
+    right: 290px;
+}
+
+.rightext {
+    position: absolute;
+    right: 30px;
+    top: 430px;
+}
+
+.onefour {
+    position: absolute;
+    right: 48px;
+    top: 400px;
+}
+
+.arrow {
+    position: absolute;
+    top: 400px;
+    right: 76px;
+}
+
+.twothree {
+    position: absolute;
+    top: 400px;
+    right: 93px;
+}
+
+.heart {
+    position: absolute;
+    top: 400px;
+    right: 117px;
+}
+
+.rightc {
+    margin-left: 105px;
+}
+
+.starr {
+    position: absolute;
+    top: 935px;
+    right: 250px;
+}
+
+.awardr {
+    position: absolute;
+    top: 935px;
+    right: 100px;
+}
+
